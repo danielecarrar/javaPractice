@@ -7,8 +7,8 @@ public class TokenTester {
 	public static void main(String[] arguments) {
 		StringTokenizer st1, st2;
 
-		String quote1 = "TWTR 37.147.28";
-		st1 = new StringTokenizer(quote1, ".");
+		String quote1 = "TWTR 37.14 7.28";
+		st1 = new StringTokenizer(quote1);
 		System.out.println("Token 1: " + st1.nextToken());
 		System.out.println("Token 2: " + st1.nextToken());
 		System.out.println("Token 3: " + st1.nextToken());
