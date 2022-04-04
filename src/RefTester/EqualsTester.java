@@ -1,5 +1,7 @@
 package RefTester;
 
+import java.util.StringTokenizer;
+
 public class EqualsTester {
 	public static void main(String[] arguments) {
 		String str1, str2;
@@ -15,5 +17,6 @@ public class EqualsTester {
 		System.out.println("String2: " + str2);
 		System.out.println("Same object? " + (str1 == str2));
 		System.out.println("Same value? " + str1.equals(str2));
+
 	}
 }

@@ -19,6 +19,15 @@ public class TokenTester {
 		System.out.println("Token 2: " + st2.nextToken());
 		System.out.println("Token 3: " + st2.nextToken());
 
+		// birthday tokenizer exercise
+		StringTokenizer stri1;
+
+		String quote22 = "29/07/1997";
+
+		stri1 = new StringTokenizer(quote22, "/");
+		System.out.println(stri1.nextToken());
+		System.out.println(stri1.nextToken());
+		System.out.println(stri1.nextToken());
 	}
 
 }
