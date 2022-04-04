@@ -5,7 +5,7 @@ public class DayCounter {
 	public static void main(String[] arguments) {
 		int yearIn = 2022;
 		int monthIn = 2;
-		int year = 2020;
+		int year = 2019;
 
 		if (arguments.length > 0) {
 			monthIn = Integer.parseInt(arguments[0]);
@@ -15,9 +15,9 @@ public class DayCounter {
 		}
 		System.out.println(monthIn + "/" + yearIn + " has " + countDays(monthIn, yearIn) + " days.");
 
-		for (int month = 1; month < 13; month++) {
-			for (int day = 1; day <= countDays(month, year); day++) {
-				System.out.println(day + "/" + month  + "/" + year);
+		for(int month = 1; month < 13; month++) {
+			for(int day = 1; day <= countDays(month, year); day++) {
+				System.out.println(day + "/" + month + "/" + year);
 			}
 		}
 
