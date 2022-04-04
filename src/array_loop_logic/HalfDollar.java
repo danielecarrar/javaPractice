@@ -36,5 +36,5 @@ public class HalfDollar {
 		System.out.println("Elements in 3rd dimension: "
 		+ cen[0][0].length);
 	
-	}
+	}//check HalfLooper for another version
 }
