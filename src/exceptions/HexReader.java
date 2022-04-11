@@ -1,11 +1,13 @@
 package exceptions;
 
+import java.io.IOException;
+
 public class HexReader {
 
 	String[] input = { "000A110D1D260219", "78700F1318141E0C ", "6A197D45B0FFFFFF " };
 
 	public static void main(String[] arguments) {
-		
+
 		HexReader hex = new HexReader();
 		for (int i = 0; i < hex.input.length; i++)
 			hex.readLine(hex.input[i]);
@@ -25,4 +27,5 @@ public class HexReader {
 			System.out.println("**");
 		}
 	}
+
 }
