@@ -6,8 +6,11 @@ public class PrimeFinder implements Runnable {
    public boolean finished = false;
    private Thread runner;
 
-   PrimeFinder(long inTarget) {
+   PrimeFinder(long inTarget) throws NegativeNumberException {
        target = inTarget;
+       if(inTarget < 0) {
+    	 throw new NegativeNumberException("The number cannot be negative!");
+       }
        if (runner == null) {
             runner = new Thread(this);
             runner.start();
