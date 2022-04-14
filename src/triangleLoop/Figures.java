@@ -72,6 +72,7 @@ public class Figures {
 			System.out.println();
 		}
 		System.out.println("-------------------------");
+
 		// even/odd rows
 
 		for (int i = 1; i <= 5; i++) {
